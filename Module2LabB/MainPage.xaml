@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module2LabB.MainPage">
+
+    <StackLayout>
+        <!--<Editor x:Name="Height" Placeholder="Please enter you height in inches" />
+        <Editor x:Name="Weight" Placeholder="Please enter you weight in pounds" />
+        <Label x:Name="alabel" />
+        <Button Text="Calculate" Clicked="Handle_Clicked" />
+        <Label x:Name="todaysdatelabel" />-->
+        <Editor x:Name="Day" Placeholder="Enter the day the month you were born"/>
+        <Editor x:Name="Month" Placeholder="Enter the month you were born"/>
+        <Editor x:Name="Year" Placeholder="Enter the year the month you were born"/>
+        <Button Text="Calculate" Clicked="Handle_Clicked" />
+        <Label x:Name="todaysdatelabel" />
+
+    </StackLayout>
+
+</ContentPage>
